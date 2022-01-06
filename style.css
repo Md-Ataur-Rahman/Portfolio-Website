@@ -1,0 +1,281 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+h1{
+    color: #535353;
+    font-size: 5rem;
+}
+h2{
+    font-size: 4.8rem;
+}
+h3{
+    font-size: 2.9rem;
+}
+h4, h5{
+    font-size: 2.8rem;
+}
+li, button, label, input, p{
+    color: #575757;
+    font-size: 1.9rem;
+}
+p{
+    line-height: 1.3em;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+section{
+    margin: 7rem 0;
+}
+::placeholder{
+    font-size: 1.5rem;
+}
+.btn{
+    color: rgb(44, 44, 44);
+    background-color: #81b29a;
+    font-size: 1.8rem;
+    padding: 1.8rem 5rem;
+    margin: .8rem 0 2rem;
+    border: none;
+    border-radius: .8rem;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.lite-green{
+    color: #4c956c;
+}
+.lite-red{
+    color: #ee6c4d;
+}
+.over-lite-green{
+    color: #99a74c;   /* if you to use it another color #9bb458  */
+}
+/* =========Start Hero Section====== */
+
+.hero-section{
+    width: 100%;
+    height: 85vh;
+}
+.hero-section .container .separation{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-section .container .separation .hero-text{
+    width: 50%;
+}
+.hero-section .container .separation .hero-text .hero-headings h1{
+    border-left: 5px solid black;
+    border-image: linear-gradient(#4c956c, #8d8d8d);
+    border-image-slice: 1;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin: .8em 0;
+}
+.hero-section .container .separation .hero-text .hero-details{
+    text-align: justify;
+}
+.hero-section .container .separation .hero-text .scroll-text{
+    color: #474747;
+    padding-bottom: 3rem;
+}
+.hero-section .container .separation .hero-image{
+    width: 50%;
+}
+.hero-section .container .separation .hero-image img{
+    width: 70%;
+    height: 70%;
+    padding-left: 10rem;
+}
+
+/* ========End Hero Section======== */
+
+
+/* ==========Start Hero Section=========== */
+
+.mission-section .container .mission-heading{
+    color: #2f2f2f;
+    text-align: center;
+}
+
+.mission-section .container .mission-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.mission-section .container .mission-cards .card{
+    width: 25%;
+    padding: 2.5rem 3.5rem;
+    border-radius: 2.25rem;
+}
+.mission-section .container .mission-cards .card-1{
+    background-color: #e5989b;
+}
+.mission-section .container .mission-cards .card-2{
+    background-color: #bdb2ff;
+}
+.mission-section .container .mission-cards .card-3{
+    background-color: #f4f1de;
+}
+.mission-section .container .mission-cards .card .card-details h3{
+    color: #28333b;
+    padding: .1rem 0;
+}
+.mission-section .container .mission-cards .card .card-details p{
+    text-align: justify;
+}
+.mission-section .container .mission-cards .card img{
+    width: 45%;
+    height: 45%;
+}
+
+/* =========End Mission Section ==========*/
+
+/* ====== Start Coding Section*/
+.coding-section{
+    padding: 5rem 0;
+}
+
+.coding-section .container .inner-coding-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coding-section .container .inner-coding-section .coding-image{
+    width: 40%;
+}
+.coding-section .container .inner-coding-section .coding-image img{
+    width: 80%;
+    height: 80%;
+}
+.coding-section .container .inner-coding-section .coding-text{
+    width: 60%;
+}
+
+/* ======End Coding Star======t */
+
+/* =========Start Community section======= */
+
+.community-section{
+    padding: 5rem 0;
+}
+.community-section .container .inner-community-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.community-section .container .inner-community-section .community-text{
+    width: 60%;
+    text-align: justify;
+}
+.community-section .container .inner-community-section .community-image{
+    width: 40%;
+}
+.community-section .container .inner-community-section .community-image img{
+    width: 80%;
+    height: 80%;    
+    padding-left: 5rem;
+}
+
+/* =====End Community section======= */
+
+/* Start Form Section*/
+
+.form-section{
+    width: 100%;
+    height: 100vh;
+}
+.form-section .container .inner-form-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-section .container .inner-form-section .form{
+    position: relative;
+    width: 50%;
+    height: 60vh;
+    background-color: #e0e0e0;
+    box-shadow: 10px 10px 42px 0px rgba(109, 109, 109, 0.75);
+    border-radius: 1.5rem;
+}
+.form-section .container .inner-form-section .form .inner-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.form-section .container .inner-form-section .form .inner-form > input, label, textarea{
+    background-color: transparent;
+    display: block;
+    margin: 2rem 0;
+}
+.form-section .container .inner-form-section .form > label{
+    padding: 2rem 0 1rem;
+    color: #2f2f2f;
+}
+.form-section .container .inner-form-section .form .inner-form > input, textarea{
+    display: block;
+    width: 400px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #535353;
+    outline: none;
+    padding: .5rem;
+    resize: none;
+}
+.form-section .container .inner-form-section .form .inner-form > button{
+    text-align: center;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.form-section .container .inner-form-section .contact{
+    width: 50%;
+    text-align: center;
+    color: #535353;
+}
+.form-section .container .inner-form-section .contact .contact-address h5{
+    font-size: 2.5rem;
+}
+.form-section .container .inner-form-section .contact .contact-address h5 a{
+    color: #1b1b1b;
+}
+.form-section .container .inner-form-section .contact .conatact-links a {
+    color: #28333b;
+    background-color: #e0e0e0;
+    font-size: 2rem;
+    display: inline-block;
+    margin: 1rem;
+    padding: 2rem;
+}
+/* End Form Section */
+
+/* Start Footer Section*/
+
+
+footer{
+    width: 100%;
+    background-color: #1b1b1b;
+}
+.footer-text{
+    text-align: center;
+    padding: 3em 0;
+}
+.footer-text h3{
+    color: #edf2f4;
+}
+
+/* End Footer Section */
